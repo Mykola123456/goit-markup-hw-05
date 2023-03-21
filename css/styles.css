@@ -204,7 +204,7 @@ button, btn {
 
 
 
-.hero-button:is(:hover, :focus, :active) {
+.button:is(:hover, :focus, :active) {
         
         color: #FFFFFF;
         background: var(--color-background);
