@@ -812,10 +812,15 @@ padding-top: 100px;
         transform: translate(-50%, -50%) scaleX(0);
 }
 .modal-close {
-       display: block;
-       margin-left: auto;
-       width: 8px;
-       height: 8px;
+        width: 24px;
+        height: 24px;
+        display: block;
+        margin-left: auto;
+        width: 24px;
+                
+        left: 20px;
+        top: 20px;
+       
        
       
 }
@@ -827,8 +832,9 @@ padding-top: 100px;
 }
 .close {
         
-       
-border-radius: 50%;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
         display:block;
         justify-content: center;
         align-items: center;
