@@ -129,6 +129,15 @@ button, btn {
         border-radius: 2px;
         margin-top: 20px;
 }
+.header-link-current {
+        color: #404BBF;
+        position: relative;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        transition: var(--speed-transform);
+}
 
 .header-link {
         position: relative;
@@ -139,6 +148,7 @@ button, btn {
         color: #2E2F42;
         transition:var(--speed-transform);
 }
+
 
 .link:is(:hover, :focus, :active) {
         color: var(--color-background)
@@ -812,18 +822,19 @@ padding-top: 100px;
         transform: translate(-50%, -50%) scaleX(0);
 }
 .modal-close {
-       position: absolute;
+        position: absolute;
         width: 24px;
         height: 24px;
-        border-radius: 50%;
         left: 24px;
-        top: 24px;
+        right: 24px;
+        border-radius: 50%;
         background: #E7E9FC;
         border: 1px solid rgba(0, 0, 0, 0.1);
-        
-       
+        cursor: pointer;
+        margin-left: auto;
       
 }
+
 
 .is-hidden {
         opacity: 0;
@@ -834,6 +845,10 @@ padding-top: 100px;
         
         width: 8px;
         height: 8px;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+       
         
                
         
