@@ -105,29 +105,41 @@ button, btn {
        padding-top: 24px;
        padding-bottom: 24px;
 }
-
-
-
-
-.current::after {
-        content: '';
-        position: absolute;
-        width: 48px;
-        height: 4px;
-        background: #404BBF;
-        border-radius: 2px;
-        margin-top: 20px;
-
-
+.header-link-top {
+        color: #404BBF;
+        position: relative;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        transition: var(--speed-transform);
 }
-.current-portfoli0::after {
+
+
+
+
+.header-link-top::after {
         content: '';
         position: absolute;
         width: 66px;
         height: 4px;
         background: #404BBF;
         border-radius: 2px;
-        margin-top: 20px;
+        top: 44px;
+        left: 0px;
+        
+}
+.header-link-current::after {
+        content: '';
+        position: absolute;
+        width: 48px;
+        height: 4px;
+        background: #404BBF;
+        border-radius: 2px;
+        top: 44px;
+        left: 0px;
+
+
 }
 .header-link-current {
         color: #404BBF;
