@@ -54,6 +54,7 @@ button, btn {
         color: #4D5AE5;
         margin-right: 76px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        transition: var(--speed-transform);
 }
 
 
@@ -193,6 +194,7 @@ button, btn {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--adres-title-color);
+        transition: var(--speed-transform);
 }
 .tel {
         
@@ -206,6 +208,7 @@ button, btn {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--adres-title-color);
+        transition: var(--speed-transform);
 }
 
 
@@ -529,6 +532,7 @@ button, btn {
 .team-soc-item {
         width: 40px;
         height: 40px;
+        transition: var(--speed-transform);
 }
 
 
@@ -539,6 +543,7 @@ button, btn {
         width: 20px;
         height: 20px;
         fill:#F4F4FD;
+        transition: var(--speed-transform);
 }
 
 
@@ -651,7 +656,7 @@ padding: 32px 16px;
         border: 1px solid#8E8F99;
         border-radius: 4px;
         padding: 16px 32px;
-       
+        transition: var(--speed-transform);     
     }
 
 .company-link:is(:hover, :focus) {
@@ -786,7 +791,8 @@ padding-top: 100px;
         align-items: center;
         justify-content: center;
         border-radius: 50%;
-        background: rgba(255, 255, 255, 0.1);
+        background-color: #4D5AE5;
+        
         transition:var(--speed-transform);
 }
 .footer-soc-link:hover,
@@ -801,6 +807,7 @@ padding-top: 100px;
         width: 20px;
         height: 20px;
         fill: #F4F4FD;
+        
         
 }
 
@@ -849,6 +856,14 @@ padding-top: 100px;
         align-items: center;
       
 }
+.modal-close:hover,
+.modal-close:focus {
+        background: #404BBF;
+        border-radius: 4px;
+        border-radius: 50%;
+        fill: #ffffff;
+
+}
 
 
 .is-hidden {
@@ -857,16 +872,18 @@ padding-top: 100px;
         pointer-events: none;
 }
 .close {
-        
-        width: 8px;
+       
+       width: 8px;
         height: 8px;
         display: inline-block;
+
+}
+
         
-       
+
         
-       
+
         
                
         
         
-}
